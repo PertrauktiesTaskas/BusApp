@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusApp", "BusApp\BusApp.csproj", "{A30A5789-A548-41DA-9032-609CAE4E756E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusDataHandler", "BusDataHandler\BusDataHandler.csproj", "{CE53EA77-4682-4023-AE1A-0887CC73F03C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A30A5789-A548-41DA-9032-609CAE4E756E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A30A5789-A548-41DA-9032-609CAE4E756E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A30A5789-A548-41DA-9032-609CAE4E756E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE53EA77-4682-4023-AE1A-0887CC73F03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE53EA77-4682-4023-AE1A-0887CC73F03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE53EA77-4682-4023-AE1A-0887CC73F03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE53EA77-4682-4023-AE1A-0887CC73F03C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace BusApp
+﻿namespace BusApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            BusDataHandler.BusDataHandler bh = new BusDataHandler.BusDataHandler(@"C:\Users\lukas\source\repos\BusApp\data.txt");
+            bh.ParseStops();
         }
     }
 }
